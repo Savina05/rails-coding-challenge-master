@@ -3,5 +3,4 @@ class OrderItem < ApplicationRecord
 
   #TODO
   validates :product_name, :integer, :order_id, presence: true
-  validates :order_id, uniqueness: true
 end
